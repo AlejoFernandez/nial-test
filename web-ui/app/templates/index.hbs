@@ -1,0 +1,12 @@
+<h2>Welcome to Ember.js</h2>
+<ul>
+    {{#each item in content}}
+        <li>{{item.name}}
+            <ul>
+                {{#each song in item.songs}}
+                    <li>{{song.name}}</li>
+                {{/each}}
+            </ul>
+        </li>
+    {{/each}}
+</ul>
