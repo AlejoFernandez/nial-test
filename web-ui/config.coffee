@@ -41,3 +41,45 @@ exports.config =
                 false
             else
                 startsWith sysPath.basename(path), '_'
+    jshint:
+        pattern: /^(app)\/(?!vendor\/).*\.js$/
+        options:
+          bitwise: true
+          camelcase: true
+          curly: true
+          eqeqeq: true
+          forin: true
+          immed: true
+          indent: 4
+          latedef: true
+          newcap: true
+          noarg: true
+          noempty: true
+          nonew: true
+          plusplus: false
+          quotmark: true
+          regexp: true
+          undef: true
+          unused: false
+          strict: false
+          trailing: true
+          browser: true
+          es5: true
+          jquery: true
+          node: true
+        globals:
+          describe: true
+          chai: true
+          it: true
+          Em: true
+          jQuery: true
+          moment: true
+          hex_md5: true
+          DS: true
+          module: true
+          hexMd5: true
+          assert: true
+          expect: true
+          ZeroClipboard: true
+          Dropzone: true
+
