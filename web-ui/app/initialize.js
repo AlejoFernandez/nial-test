@@ -17,7 +17,7 @@ require('data');
 require('models');
 
 // ===== Views =====
-require('views')
+require('views');
 
 // ===== Controllers =====
 require('controllers');

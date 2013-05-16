@@ -41,6 +41,7 @@ exports.config =
                 false
             else
                 startsWith sysPath.basename(path), '_'
+    
     jshint:
         pattern: /^(app)\/(?!vendor\/).*\.js$/
         options:
