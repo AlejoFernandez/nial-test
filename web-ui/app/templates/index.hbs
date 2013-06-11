@@ -8,5 +8,7 @@
                 {{/each}}
             </ul>
         </li>
+        Name: {{view Ember.TextField valueBinding="controller.name"}} <br/>
+        Hello {{controller.name}}!!
     {{/each}}
 </ul>
